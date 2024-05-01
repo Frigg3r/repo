@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nik\\source\\repos\\Lab7\\",
+  "WorkspaceRootPath": "C:\\Users\\Nik\\Desktop\\repo\\Lab7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C473930F-6F07-4F28-8EA4-D7760A79040D}|Lab7\\Lab7.vcxproj|C:\\Users\\Nik\\source\\repos\\Lab7\\Lab7\\Lab7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C473930F-6F07-4F28-8EA4-D7760A79040D}|Lab7\\Lab7.vcxproj|C:\\Users\\Nik\\Desktop\\repo\\Lab7\\Lab7\\Lab7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C473930F-6F07-4F28-8EA4-D7760A79040D}|Lab7\\Lab7.vcxproj|solutionrelative:Lab7\\Lab7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,28 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lab7.cpp",
-              "DocumentMoniker": "C:\\Users\\Nik\\source\\repos\\Lab7\\Lab7\\Lab7.cpp",
+              "DocumentMoniker": "C:\\Users\\Nik\\Desktop\\repo\\Lab7\\Lab7\\Lab7.cpp",
               "RelativeDocumentMoniker": "Lab7\\Lab7.cpp",
-              "ToolTip": "C:\\Users\\Nik\\source\\repos\\Lab7\\Lab7\\Lab7.cpp*",
-              "RelativeToolTip": "Lab7\\Lab7.cpp*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Nik\\Desktop\\repo\\Lab7\\Lab7\\Lab7.cpp",
+              "RelativeToolTip": "Lab7\\Lab7.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-01T18:28:44.768Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

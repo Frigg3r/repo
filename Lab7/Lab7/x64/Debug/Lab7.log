@@ -1,3 +1,288 @@
 ﻿  Lab7.cpp
-C:\Users\Nik\source\repos\Lab7\Lab7\Lab7.cpp(78,1): warning C4715: `main'::`2'::BinaryOperation::evaluate: значение возвращается не при всех путях выполнения
-  Lab7.vcxproj -> C:\Users\Nik\source\repos\Lab7\x64\Debug\Lab7.exe
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,39): error C2061: синтаксическая ошибка: идентификатор "Transformer"
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(18,45): error C2061: синтаксическая ошибка: идентификатор "Number"
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(19,54): error C2061: синтаксическая ошибка: идентификатор "BinaryOperation"
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(20,51): error C2061: синтаксическая ошибка: идентификатор "FunctionCall"
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(21,47): error C2061: синтаксическая ошибка: идентификатор "Variable"
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(32,22): error C2660: main::Transformer::transformNumber: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(18,29):
+   см. объявление "main::Transformer::transformNumber"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(32,22):
+  при попытке сопоставить список аргументов "(const main::Number *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(58,22): error C2660: main::Transformer::transformBinaryOperation: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(19,29):
+   см. объявление "main::Transformer::transformBinaryOperation"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(58,22):
+  при попытке сопоставить список аргументов "(const main::BinaryOperation *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(106,22): error C2660: main::Transformer::transformFunctionCall: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(20,29):
+   см. объявление "main::Transformer::transformFunctionCall"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(106,22):
+  при попытке сопоставить список аргументов "(const main::FunctionCall *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(130,22): error C2660: main::Transformer::transformVariable: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(21,29):
+   см. объявление "main::Transformer::transformVariable"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(130,22):
+  при попытке сопоставить список аргументов "(const main::Variable *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(143,21): error C3668: main::CopySyntaxTree::transformNumber: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(147,21): error C3668: main::CopySyntaxTree::transformBinaryOperation: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(154,21): error C3668: main::CopySyntaxTree::transformFunctionCall: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(160,21): error C3668: main::CopySyntaxTree::transformVariable: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(144,24): error C2259: "main::Number": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(25,12):
+   см. объявление "main::Number"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(144,24):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(144,24):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(144,30): error C2259: "main::Number": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(25,12):
+   см. объявление "main::Number"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(144,30):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(144,30):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,24): error C2259: "main::BinaryOperation": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(39,12):
+   см. объявление "main::BinaryOperation"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,24):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,24):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(149,30): error C2660: main::Expression::transform: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(149,30):
+  при попытке сопоставить список аргументов "(main::CopySyntaxTree *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(151,31): error C2660: main::Expression::transform: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(151,31):
+  при попытке сопоставить список аргументов "(main::CopySyntaxTree *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,39): error C2259: "main::BinaryOperation": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(39,12):
+   см. объявление "main::BinaryOperation"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,39):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,39):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,39): error C2665: "main::BinaryOperation::BinaryOperation": ни одна перегруженная функция не может преобразовать все типы аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(84,5):
+  может быть "main::BinaryOperation::BinaryOperation(const main::BinaryOperation &)"
+  	C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,39):
+  	"main::BinaryOperation::BinaryOperation(const main::BinaryOperation &)": невозможно преобразовать аргумент 1 из "int" в "const main::BinaryOperation &"
+  		C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(150,33):
+  		Причина: невозможно преобразовать "int" в "const main::BinaryOperation"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(148,39):
+  при попытке сопоставить список аргументов "(int)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,24): error C2259: "main::FunctionCall": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(86,12):
+   см. объявление "main::FunctionCall"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,24):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,24):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(157,29): error C2660: main::Expression::transform: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(157,29):
+  при попытке сопоставить список аргументов "(main::CopySyntaxTree *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,36): error C2259: "main::FunctionCall": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(86,12):
+   см. объявление "main::FunctionCall"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,36):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,36):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,36): error C2665: "main::FunctionCall::FunctionCall": ни одна перегруженная функция не может преобразовать все типы аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(122,5):
+  может быть "main::FunctionCall::FunctionCall(const main::FunctionCall &)"
+  	C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,36):
+  	"main::FunctionCall::FunctionCall(const main::FunctionCall &)": невозможно преобразовать аргумент 1 из "const std::string" в "const main::FunctionCall &"
+  		C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(156,28):
+  		Причина: невозможно преобразовать "const std::string" в "const main::FunctionCall"
+  		C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(156,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(155,36):
+  при попытке сопоставить список аргументов "(const std::string)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(161,24): error C2259: "main::Variable": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(124,12):
+   см. объявление "main::Variable"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(161,24):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(161,24):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(161,32): error C2259: "main::Variable": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(124,12):
+   см. объявление "main::Variable"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(161,32):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(161,32):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(169,21): error C3668: main::FoldConstants::transformNumber: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(173,21): error C3668: main::FoldConstants::transformBinaryOperation: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(193,21): error C3668: main::FoldConstants::transformFunctionCall: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(210,21): error C3668: main::FoldConstants::transformVariable: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(170,24): error C2259: "main::Number": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(25,12):
+   см. объявление "main::Number"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(170,24):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(170,24):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(174,46): error C2660: main::Expression::transform: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(174,46):
+  при попытке сопоставить список аргументов "(main::FoldConstants *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(175,48): error C2660: main::Expression::transform: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(175,48):
+  при попытке сопоставить список аргументов "(main::FoldConstants *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(178,43): error C2259: "main::BinaryOperation": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(39,12):
+   см. объявление "main::BinaryOperation"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(178,43):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(178,43):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(186,28): error C2259: "main::Number": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(25,12):
+   см. объявление "main::Number"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(186,28):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(186,28):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(194,43): error C2660: main::Expression::transform: функция не принимает 1 аргументов
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(194,43):
+  при попытке сопоставить список аргументов "(main::FoldConstants *)"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(197,40): error C2259: "main::FunctionCall": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(86,12):
+   см. объявление "main::FunctionCall"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(197,40):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(197,40):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(203,28): error C2259: "main::Number": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(25,12):
+   см. объявление "main::Number"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(203,28):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(203,28):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(211,24): error C2259: "main::Variable": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(124,12):
+   см. объявление "main::Variable"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(211,24):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(211,24):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(218,25): error C2259: "main::Variable": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(124,12):
+   см. объявление "main::Variable"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(218,25):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(218,25):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(219,23): error C2259: "main::Number": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(25,12):
+   см. объявление "main::Number"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(219,23):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(219,23):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(220,33): error C2259: "main::BinaryOperation": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(39,12):
+   см. объявление "main::BinaryOperation"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(220,33):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(220,33):
+  main::Expression *main::Expression::transform(void) const: абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(12,29):
+   см. объявление "main::Expression::transform"
+  
+C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(222,20): error C2259: "main::CopySyntaxTree": невозможно создать экземпляр абстрактного класса
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(142,12):
+   см. объявление "main::CopySyntaxTree"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(222,20):
+  из-за следующих членов:
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(222,20):
+  main::Expression *main::Transformer::transformNumber(void): абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(18,29):
+   см. объявление "main::Transformer::transformNumber"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(222,20):
+  main::Expression *main::Transformer::transformBinaryOperation(void): абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(19,29):
+   см. объявление "main::Transformer::transformBinaryOperation"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(222,20):
+  main::Expression *main::Transformer::transformFunctionCall(void): абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(20,29):
+   см. объявление "main::Transformer::transformFunctionCall"
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(222,20):
+  main::Expression *main::Transformer::transformVariable(void): абстрактный
+  C:\Users\Nik\Desktop\repo\Lab7\Lab7\Lab7.cpp(21,29):
+   см. объявление "main::Transformer::transformVariable"
+  
