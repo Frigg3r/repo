@@ -1,5 +1,5 @@
 defmodule Solution do
   def hello do
-    printf("Hello, World!")
+    IO.puts("Hello, World!")
   end
 end
